@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+#footer{
+    margin-bottom:30px ;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    display: flex;
+    margin-left: 30px;
+}
+nav .logo img{
+    margin-top: 25px;
+}
+ 
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration:none ;
+    color: white;
+    font-weight: bold;
+}
+nav .menu a:first-child{
+    color: lime;
+}
+nav .menu a:hover{
+    color:#00b894;
+    width: 25%; 
+}
+
+.logo .head{
+    margin-top: 30px;
+}
+main{
+    width: 100%;
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+/*
+section{
+
+}*/
+section h3{
+    margin-top:30px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+
+    font-size: 25px;
+    word-spacing:2px;
+    margin-bottom: 70px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    margin-bottom: 80px;
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px; 
+    transition: all .5s ease;
+}
+section .btn1{
+     background: #fff;
+     color: #000;
+}
+.btn1:hover{
+    background: #00b894;
+    color: #fff;   
+}
+section .btn2{
+    background: #00b894;
+    color: #fff;
+    margin-left: 20px;
+}
+.btn2:hover{
+    background: #fff;
+    color: #000;   
+}
+.change:after{
+   content:'';
+   animation: changetext 30s infinite linear;
+   color: #00b894;
+
+} 
+@keyframes changetext{
+    0%{ content: " Pround Nation Store";}
+    20%{ content: " Thula Tula";}
+    35%{ content: " Aranda";}
+    60%{ content: " Rato Ltd";}
+}
+/*  About us styling */
+.about{
+    background-color: darkgray;
+    width: 100%;
+}
+.aboutus{
+    background-color: darkgray;
+    width:100%;
+    padding: 78px 0p
+}
+.aboutus img{
+    margin-top: 20px;
+    height:auto;
+    width: 300px;
+    margin-left: 30px;
+}
+#abt-text{
+    margin-top: 50px;
+    width: 550px;
+    color: black;
+    font-size: medium;
+}
+#abt-text p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.contain{
+    width: 1100px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#three-items{
+    width: 1100px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#three{
+    margin-left: 30px;
+}
+/*organisational structure*/
+.contain-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    display:inline-block;
+    vertical-align: top;
+}
+.card img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.card h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+/*services*/
+.services{
+    background-color: darkgray;
+    width: 100%;
+}
+table, th, td{
+	border:1px solid white;
+	border-collapse:collapse;
+	color:black;
+}
+h1{
+	text-decoration:black;
+	text-align:center;
+}
+td{
+	text-align:center;
+}
+.bg{
+    background-color: darkgray;
+}
+#container{
+    background-color: darkgray;
+    margin-top: 20px;
+	border-top: none;
+	width: 95%;
+	height: auto;
+	border: 10px solid rgb(46,156,165);
+	border-radius: 50px;
+	float: left;
+	background-size:cover;
+	margin-left: 1%
+}
+
+h3{
+	text-align: center;
+   
+}
+#cate{
+	
+	width: 98%;
+	margin-left: 1%;
+	height:300px;
+	
+	margin-top: 1%;
+}
+#box{
+	width: 32%;
+	height: 298px;
+	float: left;
+	margin-left: 1%;
+	border:2px solid black;
+	border-radius:10px;
+}
+#mypic{
+	border-radius:10px;
+	width:50%;
+	height:100%;
+	float:right;
+	
+}
+#details{
+	float:left;
+	width:40%;
+	padding:15px;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	
+}
+#details h4{
+	width:100px;
+	height:40px;
+	text-align:center;
+	border-radius:10px;
+	background:rgb(0,255,64);
+	margin-top:90px;
+	
+	border:2px solid black;
+}
+h3{
+	color:white;
+    
+}
+/* contact us section */
+.contact{
+    background-color: darkgray;
+    width: 100%;
+}
+.cnt-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cnt-contain div{
+    justify-content: space-between;
+}
+.social ul{
+    margin-left: 40px;
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    margin-top: 30px;
+}
+.card1 {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left:630px;
+}
+.card1 img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.card h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card h6 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+form {
+  background-color: #4CAF50;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+  }
+
+input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
